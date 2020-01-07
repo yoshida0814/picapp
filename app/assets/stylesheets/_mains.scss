@@ -1,0 +1,19 @@
+
+
+.main-lideshow {
+  overflow: hidden;
+  position: relative;
+  min-width: 960px;
+  height: px;
+}
+.main-slideshow img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+}
+
+/* JavsScript 無効時 */
+.no-js .main-slideshow img:first-child {
+  display: inline;
+}
