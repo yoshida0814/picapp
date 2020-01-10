@@ -25,46 +25,55 @@
     .section-body
       %section#work01.tabs-panel
         .image-wrapper
-          %img{:alt => "", :height => "400", :src => "assets/4.jpeg", :width => "1600"}/
+          %img{:alt => "", :height => "400", :src => "", :width => "1600"}/
         .content
           .inner
             %h3.title Step 01
             %h4.title1 競馬場またはWINSへ行こう
             %p.description 競馬を楽しむためにも、住んでいる近くに『競馬場』があるのか探してみましょう。ここでは合計25ヶ所の競馬場を紹介します。
-            %a.read-more{:href => "./"} Read more
+            = link_to step01_horse_index_path  do
+              .read-more Read more 
+              
       %section#work02.tabs-panel
         .image-wrapper
-          %img{:alt => "", :height => "400", :src => "assets/4.jpeg", :width => "1600"}/
+          %img{:alt => "", :height => "400", :src => "", :width => "1600"}/
         .content
           .inner
             %h3.title Step 02
             %h4.title1 競馬のやり方を覚えよう
             %p.description 競馬をするにしても、まず知っておきたいのが『馬券の種類と買い方』です。自分が予想した馬券を購入できるように、やり方を確認していきましょう。
-            %a.read-more{:href => "./"} Read more
+            = link_to step02_horse_index_path  do
+              .read-more Read more 
       %section#work03.tabs-panel
         .image-wrapper
           %img{:alt => "", :height => "400", :src => "", :width => "1600"}/
         .content
           .inner
             %h3.title Step 03
-            %p.description まげすぎみんなは兎が青くなくからさっきの係りの箱げをすん第一窓顔のおねがいを考えると行っですた。野ねずみは前来て出します。扉は一いう首のようをついてきまし。
-            %a.read-more{:href => "./"} Read more
+            %h4.title1 馬券の購入から払い戻しまで
+            %p.description 馬券の種類がわかったらいよいよ馬券を購入していきます。購入から的中した馬券の払い戻しまでの手順や方法をご紹介していくので、順を追って確認してみてくださいね。
+            = link_to step03_horse_index_path  do
+              .read-more Read more 
       %section#work04.tabs-panel
         .image-wrapper
           %img{:alt => "", :height => "400", :src => "", :width => "1600"}/
         .content
           .inner
             %h3.title Step 04
+            %h4.title1 馬券の購入から払い戻しまで
             %p.description まげすぎみんなは兎が青くなくからさっきの係りの箱げをすん第一窓顔のおねがいを考えると行っですた。野ねずみは前来て出します。扉は一いう首のようをついてきまし。
-            %a.read-more{:href => "./"} Read more
+            = link_to step04_horse_index_path  do
+              .read-more Read more 
       %section#work05.tabs-panel
         .image-wrapper
           %img{:alt => "", :height => "400", :src => "", :width => "1600"}/
         .content
           .inner
             %h3.title Step 05
+            %h4.title1 馬券の購入から払い戻しまで
             %p.description まげすぎみんなは兎が青くなくからさっきの係りの箱げをすん第一窓顔のおねがいを考えると行っですた。野ねずみは前来て出します。扉は一いう首のようをついてきまし。
-            %a.read-more{:href => "./"} Read more
+            = link_to step05_horse_index_path  do
+              .read-more Read more 
 
 
 %footer.page-footer{:role => "contentinfo"}
