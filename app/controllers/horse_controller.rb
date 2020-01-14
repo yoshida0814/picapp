@@ -4,4 +4,5 @@ class HorseController < ApplicationController
   end
 
   def steph
+  end  
 end
