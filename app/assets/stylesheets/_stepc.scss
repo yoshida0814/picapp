@@ -1,0 +1,69 @@
+.main-horse{
+  background-color:#F0F8FF ;
+}
+.content-main{
+  margin:  0 auto;
+  width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  .content-main__top{
+    height: 200px;
+    position: relative;
+    background: radial-gradient(#F2B9A1, #EA6264);
+    .image_maru{
+      height: 140px;
+      width: 140px;
+      border-radius: 50%;
+      position: absolute;
+      left: 270px;
+  }
+    }
+    .toph{
+      position: absolute;
+      bottom: 10px;
+      left:60px;
+      font-size: 25px;
+    }
+  }
+
+
+.content-main__table-contents {
+ padding:10px;
+ background-color:#EEEEEE;
+ color: #EA6264;
+ .table-contents{
+  padding-top: 6px;
+}
+
+} 
+.contenth-about{
+ background-color:#EEEEEE;
+ padding:15px;
+}
+.contenth-about-buy{
+ background-color:#EEEEEE;
+ padding:15px;
+}
+.contenth-about-get{
+  background-color:#EEEEEE;
+  padding:15px;
+ }
+
+
+.horse-content{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.horse-text{
+  padding-top: 3px;
+  font-size:14px;
+}
+.table-contents{
+  padding-top: 20px;
+}
+
+.step-pic{
+  object-fit: cover;
+}
