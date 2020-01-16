@@ -1,12 +1,10 @@
 $(document).on('turbolinks:load', function() {　
   
 $(function () {
-  /*
-   * Tabs
-   */
+
   $('#work').each(function () {
 
-      // タブの各要素を jQuery オブジェクト化
+    
       var $tabList    = $(this).find('.tabs-nav'),   // タブのリスト
           $tabAnchors = $tabList.find('a'),          // タブ (リンク)
           $tabPanels  = $(this).find('.tabs-panel'); // パネル

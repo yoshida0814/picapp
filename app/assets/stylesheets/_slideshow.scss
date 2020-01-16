@@ -1,0 +1,26 @@
+.main-text{
+  position: absolute;
+  top:200px;
+  left: 380px;
+  z-index: 1;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+
+}
+.main-lideshow {
+  overflow: hidden;
+  position: relative;
+  min-width: 960px;
+}
+.main-slideshow img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+  opacity:0.5;
+}
+
+.no-js .main-slideshow img:first-child {
+  display: inline;
+}
