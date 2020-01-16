@@ -1,0 +1,26 @@
+.back-to-top {
+    background-color: rgb(240, 240, 240);
+    border-width: 0;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+}
+.back-to-top .label {
+  font-size: 0;
+  line-height: 0;
+  margin-left: -40px;
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(../assets/arrow.png);
+  background-size: contain;
+  vertical-align: middle;
+}
+
+
+.no-js .back-to-top {
+    display: none;
+}
