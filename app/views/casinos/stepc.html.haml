@@ -1,81 +1,127 @@
 .main-horse
-  .content-main
+  .content-main-c
     .content-main__top
-      %img.image_maru{:src => "/assets/5.jpeg"}/
-      %h3.toph 初心者の方向けに解説、競馬のやり方と楽しみ方！
+      %img.image_maru{:src => "/assets/7.jpeg"}/
+      %h3.toph 初心者の方向けに解説、カジノの遊び方と楽しみ方！
     .content-main__table-contents 
       %h3.horse-contents　目次
-      %li.table-contents 競馬場またはWINSへ行こう
-      %li.table-contents 競馬のやり方を覚えよう
-      %li.table-contents 馬券の購入から払い戻しまで
-      %li.table-contents 馬券の購入から払い戻しまで
-      %li.table-contents 馬券の購入から払い戻しまで
+      %a.content1{href:"#1"} • カジノに行く前に知ろう
+      %a.content1{href:"#2"} • カジノで遊ぶ心得
+      %a.content1{href:"#3"} • カジノの遊び方を知ろう
+      %a.content1{href:"#4"} • 是非遊んで欲しい！オススメのカジノゲーム
+      %a.content1{href:"#5"} • カジノを楽しむための総まとめ
     .content-main__content
       .conteth-01
-        %h3.horse-content 競馬場またはWINSへ行こう
-        %p.horse-text 皆様のお家のお近くに競馬場またはWINS(場外馬券場）はございますでしょうか？
-        %p.horse-text お近くに無い方へ全国の競馬場とWINSをご紹介いたします。
+        %a.horse-content{name:"1"} カジノに行く前に知ろう
+        %p.horse-text カジノで遊ぶ前にカジノの注意事項を知っておく必要がございます。
+        %p.horse-text ここではその大まかな注意事項を紹介致します。
       .contenth-about
-        %li.table-contents 札幌競馬場
-        %li.table-contents 福島競馬場
-        %li.table-contents 新潟競馬場
-        %li.table-contents 東京競馬場
-        %li.table-contents 中山競馬場
-        %li.table-contents 中京競馬場
-        %li.table-contents 京都競馬場
-        %li.table-contents 阪神競馬場
-        %li.table-contents 小倉競馬場
-        %p.horse-text  競馬開催中の競馬場の入場料は、『東京・中山・中京・京都・阪神』は200円、『札幌・函館・福島・新潟・小倉』
-        %p.horse-text  が100円です。15歳未満は入場料がかからないほか、『ウインズや競馬開催をしていない競馬場』は入場料無料です。 
+        %ol
+          %li.table-contents ドレスコード
+          %p.horse-text ドレスコードとは服装の決まりです。カジノのドレスコードは国やカジノによって異なります。格式の高いカジノほどドレスコードも厳しくなります。
+          %li.table-contents 禁止事項
+          %p.table-contents 1.大きな荷物は持ち込禁止
+          %p.table-contents カジノでは防犯のため、大きい荷物の持ち込みはできません。受付の人に判断してもらい、預けるように言われたら素直にクロークに預けましょう。
+          %p.table-contents 2.プレイ中の電話禁止
+          %p.table-contents プレイ中の電話はもちろん、メールやLINEなども禁止されています。どうしても電話などしなければならない時は一度テーブルから離れてカジノの外で使用しましょう。外国のカジノであれば入場無料なところがほとんどです。
+          %p.table-contents 3.テーブルの撮影禁止
+          %p.table-contents プライバシー保護の為、カジノテーブルでの撮影は禁止です。もし、友達同士で撮りたい場合はカジノスタッフに撮影してもいいか聞いてみましょう。
+          %p.table-contents 4.泥酔や悪態は禁止
+          %p.table-contents カジノ内ではアルコールも提供されていますが酔いすぎて暴言を吐いたり、負けて怒ったりすると退場させられることもありますので、あくまで大人の社交場であることを忘れず良識ある態度で遊びましょう。
+          %p.table-contents 5.チップを渡さないは禁止
+          %p.table-contents 日本にはない習慣ですが、外国には感謝の気持ちを込めてチップを渡すという習慣があります。大人のマナーとして、カクテルを配っているウエイトレスやディーラーには、必ずチップを渡すようにしましょう。
+          %li.table-contents 年齢制限
+          %table{style: "height: 379px;", width: "600"}
+            %tbody
+              %tr
+                %td{style: "font-weight: 400;background-color: #eeeeee;  color: red;" ,:width => "124"} 国
+                %td{style: "font-weight: 400; background-color: #eeeeee; color:red;"  , :width => "64"} 年齢
+              %tr
+                %td{style: "font-weight: 400;", :width => "124"} アメリカ
+                %td{style: "font-weight: 400;", :width => "64"} 21歳以上
+              %tr
+                %td{:style => "font-weight: 400;", :width => "124"} マカオ
+                %td{:style => "font-weight: 400;", :width => "64"} 21歳以上
+              %tr
+                %td{:style => "font-weight: 400;", :width => "124"} フィリピン
+                %td{:style => "font-weight: 400;", :width => "64"} 21歳以上
+              %tr
+                %td{:style => "font-weight: 400;", :width => "124"} シンガポール
+                %td{:style => "font-weight: 400;", :width => "64"} 21歳以上
+              %tr
+                %td{:style => "font-weight: 400;", :width => "124"} 韓国
+                %td{:style => "font-weight: 400;", :width => "64"} 19歳以上
+              %tr
+                %td{:style => "font-weight: 400;", :width => "124"} イギリス
+                %td{:style => "font-weight: 400;", :width => "64"} 18歳以上
+              %tr
+                %td{:style => "font-weight: 400;", :width => "124"} オーストラリア
+                %td{:style => "font-weight: 400;", :width => "64"} 18歳以上
+
+          %li#1table-contents カジノのメンバーシップ登録
+          %p.table-contents カジノのメンバーシップとは、「カジノの会員」のことです。ほとんどのカジノでパスポートを提示するだけで無料で会員登録することができます。メンバーカードはポイントカードになっていてカジノでのプレイ時間などに応じてポイントが付与されます。
+          %p.table-contents 獲得したポイントを使ってレストランで食事をしたり、宿泊費の割引など様々なサービスが受けられます。カジノでプレイしない人も一緒にメンバーカードを作っておけばお得に遊ぶことができますね。カジノによって特典は違うので公式サイトで調べてみてください。
+        
       .contenth-02
-        %h3.horse-content 競馬のやり方を覚えよう
-        %p.horse-text まず、競馬を始める為には、『馬券の種類と買い方』を覚える必要があります。
-        %p.horse-text 下記で競馬の買い方を覚えましょう。
+        %a.horse-content{name:"2"} カジノで遊ぶ心得
+        %p.horse-text カジノで楽しくプレイするためにここでは気持ちの必勝法を伝授します。
       .contenth-about
-        %li.table-contents 単勝・・・・・1着になる馬を当てる
-        %li.table-contents 複勝・・・・・3着までに入る馬を当てる
-        %li.table-contents 応援馬券・・・単勝と複勝を同時に購入できる馬券
-        %li.table-contents 枠連・・・・・1着と2着になる馬の『枠番号』の組み合わせを当てる
-        %li.table-contents 馬連・・・・・1着と2着になる馬の『馬番号』の組み合わせを当てる
-        %li.table-contents 馬単・・・・・1着と2着になる馬の馬番号を着順通りに当てる
-        %li.table-contents ワイド・・・・3着までに入る2頭の組み合わせを馬番号で当てる
-        %li.table-contents 三連複・・・・1着・2着・3着など連続する馬の組み合わせを馬番号で当てる
-        %li.table-contents 三連単・・・・1着・2着・3着になる馬の馬番号を当てる
+        %li.table-contents 自分にあったギャンブルの戦い方を選んで下さい。
+        %p.table-contents 自分にあったギャンブルの戦い方とは…すなわち『性格』です。性格がなぜ関係あるか、下記でご説明いたします。
+        %p.table-contents カジノでは日本のパチンコや宝くじといった公営ギャンブルとは異なり、還元率が非常に高いです。また『マーチンゲール法』といった必勝法が存在します。
+        %li.table-contents マーチンゲール法とは
+        %p.table-contents 丁半博打をはじめ麻雀、競馬、ルーレットなど、主に約2分の1で勝てるゲームの様々な場面で耳にするこの倍々理論ですが、正確には「マーチンゲール法」と呼ばれています。簡単に言うと勝つまで倍賭けをすることで絶対に負けなくなるという古くから伝わる理論のことを指します。
+        %p.table-contents 1万円が倍になる2分の1ゲームをしたとして、元手が100万円あったとしましょう。何回連続で負けられるか体感で答えてみてください。10回？それとも20回？
+        %p.table-contents 答えは…
+        %p.table-contents 6回連続で負けたら破産します
+        %p.table-contents 1回負ける⇒1万円負け
+        %p.table-contents 2回連続で負ける⇒3万円負け
+        %p.table-contents 3回連続で負ける⇒7万円負け
+        %p.table-contents 4回連続で負ける⇒15万円負け
+        %p.table-contents 5回連続で負ける⇒31万円負け
+        %p.table-contents 6回連続で負ける⇒63万円負け
+        %p.table-contents この時点で次に掛ける64万円がないので、ゲームが続けられなくなります。
+        %p.table-contents まず本当に2分の1で勝てるとして、7連敗する確率は約0.78％になります。
+        %p.table-contents 0.78％しかないのか！ と思われる方もいるかもしれませんが、1回勝ったところで1万円しか勝てないのですから、100万円勝つためには100回勝たなければいけません。
+        %p.table-contents そもそも100万円を元手にギャンブルをする人はあまりいません。そこで1/10の10万円で挑戦した場合でも、1万円を稼ぐために時間と労力と勝ち続けないといけないという精神力が必要なため、途中でこの方法の道から外れ、結果負けるのがオチです。
+        %p.table-contents これがギャンブルをする人の性格にあったゲーム選ぶことが勝利への重要な選択となります。
       .content-03
-        %h3.horse-content 馬券の購入
-        %p.horse-text 馬券の買い方は分かりましたか？
-        %p.horse-text 買い方を理解できれば、次は早速馬券を買ってみましょう。
-      .contenth-about-buy
-        %ol
-          %li.table-contents 左上にある購入するレースの『場名』部分を塗りつぶす
-          %li.table-contents 右に移動して電光掲示板などに表示されている『レース番号』の数字を塗りつぶす
-          %li.table-contents 『式別』の部分の『馬単』を塗りつぶす
-          %li.table-contents 左下に移動して『1着・1頭目』『2着・2頭目』に予想した馬の番号を塗りつぶす
-          %li.table-contents『ウラ』の部分は馬単のみに使うもので、上記で予想して選んだ馬番号が逆の場合を購入することができます
-          %li.table-contents 馬券を購入する『金額』と『単位』を記入したら完了です 
-      .contenth-about-get
-        %ol
-          %li.table-contents 自動発券機にお金を入れる
-          %li.table-contents マークカードを差し込む
-          %li.table-contents 画面を確認して読み込まれているかチェックする
-          %li.table-contents 精算ボタンを押す
-          %li.table-contents 出てきた馬券とおつりを取る
-      .content-03-about
-        %p.horse-text レース発走のギリギリまで馬券は購入できるため、最後まで予想をしている人も少なくありません。
-        %p.horse-text もたつかないように『記入漏れやお金の用意』をしてから自動発券機に向かうのがおすすめです。
-          
+        %a.horse-content{name:"3"} カジノの遊び方を知ろう
+        %p.horse-text 
+      .contenth-about
+        %p.table-contents 手順1 現地のお金に交換
+        %p.table-contents まずカジノで遊ぶ前に、円を現地のお金に換えておきましょう。万一忘れてもカジノ内で換金できるところもありますが、手数料が高めなことが多いです。
+        %p.table-contents 手順2 賭け金のマックスベット・ミニマムベットを知る
+        %p.table-contents カジノではテーブルごとに最低賭け金（ミニマムベット/MinimumBet)と最高賭け金（マックスベット/MaximumBet)が決まっています。自分の予算に合った賭け金のテーブルを選びましょう。
+        %p.table-contents 手順3 現金をチップに換金
+        %p.table-contents テーブルゲームではゲームチップに換金してからプレイします。現金をテーブルに置けばディーラーがチップに交換してくれます。この時、決してディーラーに手渡しせず、テーブルに置いてください。ディーラーに手渡しすると自分へのチップだと勘違いされることがあります。
+        %p.table-contents 手順4 ゲームスタート
+        %p.table-contents 自分の遊びたいゲームを見つけたらゲームスタートです。ディーラーの合図に従ってベットしてください。ゲームスタートからそのゲームの終了まで一度賭けたチップには触れてはいけません。勝敗に応じてディーラーからチップが配れます。ゲームを降りる時は必ずディーラーにチップを払うようにしてください。
+        %p.table-contents 手順5 カジノをやめる際は、チップを現金に換金
+        %p.table-contents チップはカジノ内だけの物なので、帰る時は忘れずに換金所でチップを現金に換金して帰りましょう。    
       .content-04
-        %h3.horse-content 当たり馬券の払い出し
-        %p.horse-text 馬券は当たりましたでしょうか？
-        %p.horse-text おめでとうございます。それでは早速換金しましょう。
-      .contenth-about-get
-        %ol
-          %li.table-contents 自動発券機にお金を入れる
-          %li.table-contents マークカードを差し込む
-          %li.table-contents 画面を確認して読み込まれているかチェックする
-          %li.table-contents 精算ボタンを押す
-          %li.table-contents 出てきた馬券とおつりを取る
+        %a.horse-content{name:"4"} 是非遊んで欲しい！オススメのカジノゲーム
+        %p.horse-text ここでは初心者の方から経験者の方まで編集者おすすめのカジノゲームをご紹介致します。
+      .contenth-about
+        %p.table-contents 1 スロット
+        %p.table-contents まずカジノで遊ぶ前に、円を現地のお金に換えておきましょう。万一忘れてもカジノ内で換金できるところもありますが、手数料が高めなことが多いです。
+        %p.table-contents 2 バカラ
+        %p.table-contents バカラとは「カジノの王様」とも呼ばれるほどカジノでは大人気のトランプゲームです。ゲームの参加者は「バンカー」と「プレイヤー」に配られるカードどちらが強いのかを予測します。日本のギャンブルでいうと、「丁半」に似てますね。
+        %p.table-contents 基本的なルールは簡単で、ディーラーは「プレイヤー」と「バンカー」にカードを2~3枚ずつ配ります。そのカードの合計が「9」に近い方が勝ちです。
+        %p.table-contents バンカーかプレイヤーのどちらかに賭けるだけでいいので初心者でも簡単に遊ぶことができます。本場カジノではとにかく大金が動くゲームですので是非遊んでみてください！
+        %p.table-contents 3 ポーカー
+        %p.table-contents ルーレットは専用の盤に投げ込まれたボールが、どの数字に入るかを当てるゲームです。バカラが「カジノの王様」ならルーレットは「カジノの女王」と呼ばれています。
+        %p.table-contents 賭け方は豊富で、赤か黒に入ることを当てるか、奇数か偶数に入ることを当てるかなど、他にも色んな賭け方があります。
+        %p.table-contents 賭け方を組み合わせると当たる確率が一気に上がります。中には当たる確率90％を超える組み合わせもあります。
+        %p.table-contents 4 ブラックジャック
+        %p.table-contents ブラックジャックは「プレイヤー対ディーラー」で勝負するトランプゲームです。
+        %p.table-contents ルールは、ディーラーとプレイヤーに数枚のトランプカードが配られ、手札の合計が「21」に近い方が勝ちになります。「21」を超えてしまうとバーストといって強制的に負けが確定します。
+        %p.table-contents ブラックジャックは戦略的なことが色濃く出るゲームなのでカジノ初心者にはあまりオススメしません。バカラやルーレットで遊んでから、挑戦してみてください。
       .contetn-05
-        %h3.horse-content 編集者おすすめの馬券の買い方を真似してみてください。
+        %a.horse-content{name:"5"} カジノを楽しむための総まとめ
         %p.horse-text 馬券を買う時、どんな買い方をしたら良いか悩むはずです。
-        %p.horse-text そこで皆様におすすめの馬券の買い方を教えます。    　  
+        %p.horse-text そこで皆様におすすめの馬券の買い方を教えます。    
+      .contenth-about
+        %p.table-contents いかがでしたか？
+        %p.table-contents カジノに行く前は事前準備が大切です。マナーを予習しておくこともそうですし、十分な資金を用意しておくことももちろん大事です。日本人にはあまりなじみのないカジノですが、海外では大人の社交場として認知されています。カジノに行った際は、周りの人に迷惑をかけないよう必ずネットなどで情報を調べておいてください。
+        
