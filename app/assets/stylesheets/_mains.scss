@@ -1,26 +1,46 @@
-.main-text{
-  position: absolute;
-  top:200px;
-  left: 380px;
-  z-index: 1;
-  font-size: 60px;
-  font-weight: 700;
-
-}
-.main-lideshow {
-  overflow: hidden;
-  position: relative;
-  min-width: 960px;
-}
-.main-slideshow img {
-  display: none;
-  position: absolute;
-  left: 50%;
-  margin-left: -800px;
-  opacity:0.5;
+html, body, .scene {
+    height: 100%;
 }
 
-/* JavsScript 無効時 */
-.no-js .main-slideshow img:first-child {
-  display: inline;
+
+.mask {
+    overflow: hidden;
+    position: absolute;
+    top:61px;
+    left:0;
+    width: 100%;
+    height : calc(100% - 61px);
+}
+
+.mask img {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -960px;
+    margin-top: -540px;
+    width: 1920px;
+    height : 1080px;
+}
+
+.mask .bar {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+.mask#apple-1 .bar { background-color: #ff0000; }
+.mask#apple-2 .bar { background-color: #11379d; }
+.mask#apple-3 .bar { background-color: #9a03d9; }
+.mask#apple-4 .bar { background-color: #3cb932; }
+
+.mask .line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+    top: 0;
+}
+.mask:first-child .line {
+    display: none;
 }
