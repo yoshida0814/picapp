@@ -1,7 +1,7 @@
 .main-horse{
   background-color:#F0F8FF ;
 }
-.content-main{
+.content-main-c{
   margin:  0 auto;
   width: 700px;
   background-color: #fff;
@@ -9,7 +9,7 @@
   .content-main__top{
     height: 200px;
     position: relative;
-    background: radial-gradient(#F2B9A1, #EA6264);
+    background: radial-gradient(rgb(253, 252, 252), rgb(238, 129, 5));
     .image_maru{
       height: 140px;
       width: 140px;
@@ -17,13 +17,14 @@
       position: absolute;
       left: 270px;
   }
-    }
     .toph{
       position: absolute;
       bottom: 10px;
       left:60px;
       font-size: 25px;
     }
+   }
+
   }
 
 
@@ -31,8 +32,11 @@
  padding:10px;
  background-color:#EEEEEE;
  color: #EA6264;
- .table-contents{
-  padding-top: 6px;
+ .content1{
+  display: block;
+  margin-top: 4px;
+
+  
 }
 
 } 
@@ -66,4 +70,10 @@
 
 .step-pic{
   object-fit: cover;
+}
+
+td{
+  border: 1px solid #ccc;
+  padding: 10px 15px 7px;
+  line-height: 2;
 }

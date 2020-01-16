@@ -81,6 +81,7 @@ button {
   margin: 0;
   padding: 0;
   border: none;
+  z-index: １１;
 }
 
 .page-footer {
@@ -125,7 +126,7 @@ button {
   overflow: hidden;
   position: relative;
   min-width: 960px;
-  height: 700px;
+  height: 760px;
 }
 .slideshow img {
   display: none;
@@ -182,10 +183,13 @@ img { vertical-align: middle; }
 }
 .work-section h2 {
     float: left;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: normal;
     letter-spacing: 1px;
-    color: red;
+    color:#8f8251;
+    line-height: 95px;
+    font-family: 'Cardo', serif;
+    
 }
 
 /* タブ */
