@@ -48,7 +48,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
+
+
   <<: *default
-  database: picapp_production
-  username: picapp
-  password: <%= ENV['PICAPP_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
