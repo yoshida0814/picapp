@@ -1,4 +1,9 @@
 $(document).on('turbolinks:load', function() {　
+$(function() {
+    setTimeout(function(){
+        $('.main-text ').fadeIn(4000);
+    },500); //0.5秒後にロゴをフェードイン!
+});
 $(function(){
   // 
   var duration = 300;
@@ -18,4 +23,5 @@ $(function(){
       });
 
   });
+
 });

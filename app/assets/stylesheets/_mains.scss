@@ -1,5 +1,5 @@
 html, body, .scene {
-    height: 100%;
+    height: calc(100% - 20px);
 }
 
 
@@ -10,6 +10,7 @@ html, body, .scene {
     left:0;
     width: 100%;
     height : calc(100% - 61px);
+
 }
 
 .mask img {
@@ -20,6 +21,7 @@ html, body, .scene {
     margin-top: -540px;
     width: 1920px;
     height : 1080px;
+  
 }
 
 .mask .bar {

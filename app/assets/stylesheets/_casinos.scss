@@ -13,6 +13,7 @@ background-color:#8f8251;
   top: 10px;
   left: 15px;
   font-family: 'Monoton', cursive;
+  text-shadow: -1px -1px 1px rgb(175, 40, 40);
 }
 .gaming{
   display: flex;
@@ -20,9 +21,12 @@ background-color:#8f8251;
   color: white;
   font-size: 16px;
   line-height: 70px;
+  
   .top-text{
-    margin-left: 30px;
+    margin: 30px;
     font-family: 'Cardo', serif;
+    font-size: 22px;
+    text-shadow: -1px -1px 1px rgb(175, 40, 40);
 
   }
 
